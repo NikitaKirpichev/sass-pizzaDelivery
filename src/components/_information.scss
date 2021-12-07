@@ -1,0 +1,22 @@
+.information {
+    &__body {
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    &__row {
+        display: flex;
+        
+    }
+
+    &__coloumn {
+        margin: 0px 0px 0px 20px;
+        max-width: 386.66px;
+        height: 411.41px;
+        background: $orange;
+    }
+}
+
+.item-information {
+    &__title {}
+    &__text {}
+}

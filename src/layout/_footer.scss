@@ -1,0 +1,47 @@
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#container"), $footer-selector: unquote("#footer")) {
+
+  #{$footer-selector} {
+    margin: 0 auto;
+    height: 290px;
+    width: 1300px;
+  }
+}
+
+@include sticky-footer(30px);
+
+#footer {
+  background: hsl(0, 14%, 51%);
+}
+
+.footer {
+  &__area {
+    display: flex;
+  }
+
+  &__nav,&__info {
+    width: 300px;
+    height: 230px;
+
+    ul {
+      list-style-type: none;
+      padding: 20px 0px 0px 30px;
+    }
+
+    li+li {
+      margin-top: 20px;
+    }
+  }
+
+  &__info {
+    width: 300px;
+    height: 130px;
+    padding-left: 0px;
+    img{
+      width: 530px;
+      height: auto;
+      
+    }
+  }
+
+  
+}

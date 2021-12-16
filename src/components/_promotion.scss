@@ -1,25 +1,30 @@
-.information {
+.promotion {
     &__body {
         max-width: 1300px;
         margin: 0px auto;
     }
-    &__row {
+
+    &__row { 
         display: flex;
-        
     }
 
     &__coloumn {
         margin-left: 26px;
 		flex: 0 0 416px;
-        background: $orange;
-        height: 350px;
+        height: auto;
+        
+        img{
+            width: 100%;
+            border-radius: 30px;
+        }
+
         &:nth-child(1){
             margin-left: 0px;
         }
     }
 }
 
-.item-information {
+.item-promotion {
     &__title {
         padding: 20px 0 0 20px;
     }
@@ -27,3 +32,5 @@
         padding: 25px 10px 0 20px;
     }
 }
+
+

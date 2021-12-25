@@ -1,33 +1,37 @@
 @mixin button-bg($bg) {
-    background: $bg;
-    &:hover {
-      background:darken($bg,8%);
-      transition: all 0.3s ease;
-    }
-    &:active {
-      background:darken($bg,25%);
-    } 
+  background: $bg;
+
+  &:hover {
+    background: darken($bg, 8%);
+    transition: all 0.3s ease;
   }
-  
-  .btn {
-   color:white;
-   text-decoration: none;
-   padding: 5px 10px;
-   border-radius: 5px;
-   font-size: 16px;
+
+  &:active {
+    background: darken($bg, 25%);
   }
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 16px;
+}
 
 .btn-orange {
-    @include button-bg($orange);
- }
+  @include button-bg($orange);
+}
 
- .btn-red {
-    @include button-bg($red);
- }
+.btn-red {
+  @include button-bg($red);
+}
 
- .wrap {
-    margin: 0 auto;
-    width: 800px;
-    text-align: center;
-    margin-bottom: 10px;
+.wrap {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 10px;
 }

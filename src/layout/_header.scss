@@ -1,0 +1,40 @@
+.header {
+    &__area {
+      display: flex;
+      margin: 0 auto;
+      width: 90%;
+      height: 160px;
+      background: hsl(0, 14%, 51%);
+    }
+
+    &__row{
+        width: fit-content;
+    }
+    
+    &__logo{
+        img{
+            margin-top: 30px;   
+        }
+    }
+
+    &__buttons{
+        padding-top: 35px;
+    }
+    
+    &__information{
+        
+        ul{
+            list-style-type: none;
+            padding: 0 0 0 20px;
+        }
+
+        li+li {
+            margin-top: 10px;
+        }
+    }
+    
+    &__cart-signin{
+        justify-content: end;
+    }
+    
+  }

@@ -3,11 +3,11 @@
   #{$footer-selector} {
     margin: 0 auto;
     height: 290px;
-    width: 1300px;
+    width: 90%;
   }
 }
 
-@include sticky-footer(30px);
+@include sticky-footer(290px);
 
 #footer {
   background: hsl(0, 14%, 51%);
@@ -15,10 +15,11 @@
 
 .footer {
   &__area {
+    height: 100%;
     display: flex;
   }
 
-  &__nav,&__info {
+  &__nav {
     width: 300px;
     height: 230px;
 
@@ -36,12 +37,46 @@
     width: 300px;
     height: 130px;
     padding-left: 0px;
+    padding-inline-start: 0px;
     img{
-      width: 530px;
+      width: 330px;
       height: auto;
-      
+    }
+    ul {
+      list-style-type: none;
+      padding: 20px 0px 0px 0px;
+    }
+    li+li {
+      margin-top: 20px;
     }
   }
+}
 
-  
+.payment_options {
+  display: flex;
+  &__area {
+    align-self: flex-end;
+    img{
+      width: 400px;
+    }
+  }
+}
+
+
+.social-media{
+  display: flex;
+  &__body{
+    margin-left: 50px;
+    height: 102px;
+    width: 220px;
+    align-self: flex-end;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__coloumn{
+    
+  }
 }

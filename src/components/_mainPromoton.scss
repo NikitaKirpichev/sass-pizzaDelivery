@@ -1,11 +1,15 @@
 .mainPromotion{
+    width: 100%;
     &__body {
-        max-width: 1300px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
         margin: 0px auto;
     }
 
     &__area {
-
+    display: flex;
+    justify-content: space-between;
         img{
             border-radius: 30px;
             width: 100%;

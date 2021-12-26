@@ -4,11 +4,12 @@
       margin: 0 auto;
       width: 90%;
       height: 160px;
-      background: hsl(0, 14%, 51%);
+      //background: hsl(0, 14%, 51%);
     }
 
-    &__row{
-        width: fit-content;
+    &__coloumn{
+        display: flex;
+        flex-direction: column;
     }
     
     &__logo{
@@ -22,7 +23,6 @@
     }
     
     &__information{
-        
         ul{
             list-style-type: none;
             padding: 0 0 0 20px;
@@ -34,7 +34,8 @@
     }
     
     &__cart-signin{
-        justify-content: end;
+        padding-top: 110px;
+        padding-left: 625px;
     }
     
   }

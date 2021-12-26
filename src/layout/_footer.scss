@@ -9,9 +9,6 @@
 
 @include sticky-footer(290px);
 
-#footer {
-  background: hsl(0, 14%, 51%);
-}
 
 .footer {
   &__area {
@@ -20,12 +17,11 @@
   }
 
   &__nav {
-    width: 300px;
-    height: 230px;
+    width: 20%;
 
     ul {
       list-style-type: none;
-      padding: 20px 0px 0px 30px;
+      padding: 20px 0px 0px 0px;
     }
 
     li+li {
@@ -34,18 +30,15 @@
   }
 
   &__info {
-    width: 300px;
-    height: 130px;
+    width: 30%;
+    
     padding-left: 0px;
-    padding-inline-start: 0px;
-    img{
-      width: 330px;
-      height: auto;
-    }
+    
     ul {
       list-style-type: none;
       padding: 20px 0px 0px 0px;
     }
+
     li+li {
       margin-top: 20px;
     }
@@ -54,29 +47,33 @@
 
 .payment_options {
   display: flex;
+
   &__area {
     align-self: flex-end;
-    img{
+
+    img {
       width: 400px;
     }
   }
 }
 
 
-.social-media{
+.social-media {
   display: flex;
-  &__body{
-    margin-left: 50px;
+  background-color: yellow;
+  &__body {
+    background-color: green;
+    margin-left: 150px;
     height: 102px;
     width: 220px;
     align-self: flex-end;
   }
-  &__row{
+
+  &__row {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
-  &__coloumn{
-    
-  }
+
+  &__coloumn {}
 }

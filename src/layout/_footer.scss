@@ -2,18 +2,19 @@
 
   #{$footer-selector} {
     margin: 0 auto;
-    height: 290px;
+    
     width: 90%;
   }
 }
 
-@include sticky-footer(290px);
-
+@include sticky-footer(100%);
 
 .footer {
   &__area {
     height: 100%;
     display: flex;
+    background-color: $black;
+    color: $white;
   }
 
   &__nav {
@@ -21,26 +22,24 @@
 
     ul {
       list-style-type: none;
-      padding: 20px 0px 0px 0px;
+      padding: 0 0 0 10%;
     }
 
     li+li {
-      margin-top: 20px;
+      margin-top: 8%;
     }
   }
 
   &__info {
     width: 30%;
-    
     padding-left: 0px;
-    
+
     ul {
-      list-style-type: none;
-      padding: 20px 0px 0px 0px;
+      list-style-type: none;  
     }
 
     li+li {
-      margin-top: 20px;
+      margin-top: 5%;
     }
   }
 }
@@ -60,12 +59,15 @@
 
 .social-media {
   display: flex;
-  background-color: yellow;
+  justify-content: flex-end;
+  margin-left: 6em;
+
+  &__title {
+    text-align: center;
+  }
+
   &__body {
-    background-color: green;
-    margin-left: 150px;
-    height: 102px;
-    width: 220px;
+    width: 100%;
     align-self: flex-end;
   }
 
@@ -74,6 +76,4 @@
     justify-content: space-between;
     align-items: flex-end;
   }
-
-  &__coloumn {}
 }

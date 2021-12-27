@@ -2,9 +2,49 @@
     &__area {
       display: flex;
       margin: 0 auto;
+      flex-direction: column;
       width: 90%;
-      height: 160px;
-      //background: hsl(0, 14%, 51%);
+    }
+
+    &__row {
+        display: flex;
+        padding-top: 10px;
+        height: 20%;
+    }
+
+    &__logo {
+        
+    }
+
+    &__information {
+        ul{
+            list-style-type: none;
+            padding: 0 0 0 20px;
+        }
+
+        li+li {
+            margin-top: 5%;
+        }
+    }
+
+    &__buttons {
+        
+    }
+}
+.btn {
+}
+.btn-orange {
+}
+
+
+
+
+/*.header {
+    &__area {
+      display: flex;
+      margin: 0 auto;
+      width: 90%;
+      background: hsl(0, 14%, 51%);
     }
 
     &__coloumn{
@@ -29,13 +69,15 @@
         }
 
         li+li {
-            margin-top: 10px;
+            margin-top: 5%;
         }
     }
     
     &__cart-signin{
-        padding-top: 110px;
-        padding-left: 625px;
+        padding-top: 8%;
+        padding-left: 45.8%;
     }
     
   }
+
+  */

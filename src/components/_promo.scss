@@ -1,0 +1,51 @@
+.promocode {
+    &__body {
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    &__header {
+    }
+
+    &__title {
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__coloumn {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3em;
+        background-color: $orange;
+        width: 45%;
+        height: 400px;
+        border-radius: 3%;
+    }
+}
+.title {
+}
+.item-promo {
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        
+        img{
+            width: 500px;
+        }
+    }
+
+    &__title {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    &__text {
+        margin-left: 20px;
+        margin-top: 30px;
+        height: 4em;
+    }
+}

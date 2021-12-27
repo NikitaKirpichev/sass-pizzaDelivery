@@ -1,0 +1,39 @@
+.contact {
+
+    &__body {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    &__header {}
+
+    &__title {}
+
+    &__row {}
+
+    &__coloumn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $orange;
+        border-radius: 15px;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+}
+
+.title {}
+
+.item-contact {
+
+    &__text {
+        padding: 30px 0px 0px 30px;
+    }
+
+    &__map {
+        img {
+            height: 450px;
+
+        }
+    }
+}

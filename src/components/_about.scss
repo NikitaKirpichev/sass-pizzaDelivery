@@ -1,0 +1,12 @@
+.about {
+    &__body {
+        display: flex;
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 5%;
+    }
+
+    &__text {
+        width: 50%;
+    }
+}

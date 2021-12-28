@@ -385,20 +385,38 @@ body {
   height: 20px;
 }
 
-.authorization__area {
+.authorization__body {
   width: 90%;
   margin: 0px auto;
 }
-.authorization__area img {
-  width: 100%;
-}
-.authorization__body {
+.authorization__row {
   display: flex;
+  justify-content: space-around;
 }
-.authorization__sign-up {
+.authorization__coloumn {
   display: flex;
-  background-color: red;
+  margin: 8% 0em 8%;
+  background-color: #ff6900;
+  width: 35%;
+  height: 15em;
+  border-radius: 3%;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
+
+.item-auth__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-auth__title, .item-auth__input-email, .item-auth__input-passw {
+  margin: 6% 0 6%;
+}
+.item-auth__button a {
+  background-color: #f01900;
+}
+
 .about__body {
   display: flex;
   width: 90%;
@@ -503,6 +521,40 @@ body {
   height: 450px;
 }
 
+.sucsess__body {
+  width: 90%;
+  margin: 0px auto;
+}
+.sucsess__coloumn {
+  display: flex;
+  margin: 0px auto;
+  margin-bottom: 3em;
+  width: 300px;
+}
+.sucsess__button {
+  width: 120%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sucsess__button a {
+  font-size: 14px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.item-sucsess__title {
+  text-align: center;
+  text-decoration: solid;
+}
+.item-sucsess__text {
+  text-align: center;
+}
+.item-sucsess__number, .item-sucsess__summ, .item-sucsess__status {
+  margin-top: 25px;
+}
+
 .header__area {
   display: flex;
   margin: 0 auto;
@@ -513,6 +565,9 @@ body {
   display: flex;
   padding-top: 10px;
   height: 20%;
+}
+.header__logo {
+  margin-top: 25px;
 }
 .header__information ul {
   list-style-type: none;

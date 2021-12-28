@@ -1,0 +1,49 @@
+.sucsess {
+
+    &__body {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    &__coloumn {
+        display: flex;
+        margin: 0px auto;
+        margin-bottom: 3em;
+        width: 300px;
+    }
+
+    &__button{
+        width: 120%;
+        display: flex;
+        justify-content: center;
+        
+        margin: 0 auto;
+        a{
+            font-size: 14px;
+            width: fit-content;
+            height: fit-content;
+            text-align: center;
+        }
+        
+    }
+}
+.item-sucsess {
+
+    &__icon {
+    }
+
+    &__title {
+        text-align: center;
+        text-decoration: solid;
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__number,&__summ,&__status {
+        margin-top: 25px;
+    }
+
+    
+}

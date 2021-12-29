@@ -1,0 +1,42 @@
+.registration {
+    &__body {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__coloumn {
+        display: flex;
+        margin: 8% 0em 8%;
+        background-color: $orange;
+        width: 45%;
+        height: 25em;
+        border-radius: 3%;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+    }
+}
+
+.item-reg {
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    &__title,&__input-name,&__input-secondName,&__input-email,&__input-passw,&__reg__button{
+        margin: 6% 0 6%;
+        
+    }
+
+    &__button {
+        a{
+            background-color: $red;
+        }
+    }
+}

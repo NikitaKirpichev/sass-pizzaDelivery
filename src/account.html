@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Pizza Delivery</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__area">
+
+            <div class="header__row">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="../images/logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="header__information">
+                    <ul>
+                        <li>Доставка пиццы Витебск</li>
+                        <li>Звонок по телефону</li>
+                        <li>1234</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__row">
+                <div class="header__buttons">
+
+                    <a href="about.html" class="btn btn-orange">О нас</a>
+                    <a href="promo.html" class="btn btn-orange">Промокоды</a>
+                    <a href="contacts.html" class="btn btn-orange">Контакты</a>
+                    <a href="cart.html" class="btn btn-orange">Корзина</a>
+                    <a href="authorization.html" class="btn btn-orange">Войти</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="account">
+        <div class="account__body">
+            <div class="account__header">
+                <div class="account__title title">
+                    <h1>Личный кабинет</h1>
+                </div>
+            </div>
+
+
+            <div class="account__row">
+                <div class="account__coloumn">
+                    <div class="item-pic">
+                        <div class="item-pic__area">
+                            <div class="item__icon">
+                                <img src="../images/icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="account__coloumn">
+                    <table class="table-info">
+                        <caption>Ваша информация</caption>
+                        <tr class="table-info__row">
+                            <td class="table-info__cell">Имя:</td>
+                            <td class="table-info__cell"><input type="text" value="Никита"></td>
+                        </tr>
+                        <tr class="table-info__row">
+                            <td class="table-info__cell">Фамилия:</td>
+                            <td class="table-info__cell"><input type="text" value="Кирпичёв"></td>
+                        </tr>
+                        <tr class="table-info__row">
+                            <td class="table-info__cell">Дата рождения:</td>
+                            <td class="table-info__cell"><input type="date" value="2001-07-17"> </td>
+                        </tr>
+                        <tr class="table-info__row">
+                            <td class="table-info__cell">E-mail:</td>
+                            <td class="table-info__cell"><input type="e-mail" value="nalkire17@gmail.com"></td>
+                        </tr>
+                        <tr class="table-info__row">
+                            <td class="table-info__cell">Телефон:</td>
+                            <td class="table-info__cell"><input type="tel" id="phone" name="phone"  pattern='\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}' required></td>
+                        </tr>
+                        <tr class="table-info__row">
+                            <td class="table-info__cell">Адрес доставки:</td>
+                            <td class="table-info__cell"><input type="text"></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+
+            </div>
+
+
+            <div class="account__row">
+                <div class="account__coloumn">
+                    <table class="table-orders">
+                        <caption>Последние заказы</caption>
+                        <tr class="table-orders__row">
+                            <td class="table-orders__cell">Номер заказа</td>
+                            <td class="table-orders__cell">Дата</td>
+                            <td class="table-orders__cell">Сумма</td>
+                            <td class="table-orders__cell">Статус</td>
+                        </tr>
+                        <tr class="table-orders__row">
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                        </tr>
+                        <tr class="table-orders__row">
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                        </tr>
+                        <tr class="table-orders__row">
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                        </tr>
+                        <tr class="table-orders__row">
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                            <td class="table-orders__cell"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer__area">
+
+            <div class="footer__nav">
+                <ul>
+                    <li>Пицца у Никитоса</li>
+                    <li>О нас</li>
+                    <li>Промокоды</li>
+                    <li>Контакты</li>
+                    <li>Статус заказа</li>
+                    <li>Корзина</li>
+                </ul>
+            </div>
+
+            <div class="footer__info">
+                <ul>
+                    <li>Звонок по телефону</li>
+                    <li>1234</li>
+                    <li>Наш адрес : г. Витебск,
+                        ул. Чкалова, 35</li>
+                </ul>
+            </div>
+
+            <div class="payment_options">
+                <div class="payment_options__area">
+                    <img src="../images/paymentOptions.png" alt="">
+                </div>
+            </div>
+
+            <div class="social-media">
+                <div class="social-media__body">
+                    <div class="social-media__title">
+                        <p>Мы в социальных сетях<p>
+                    </div>
+                    <div class="social-media__row">
+                        <div class="social-media__coloumn">
+                            <a href="https://www.vk.com/toolboy" target="_blank">
+                                <img src="../images/vk.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="social-media__coloumn">
+                            <a href="https://telegram.org/" target="_blank">
+                                <img src="../images/tg.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="social-media__coloumn">
+                            <a href="https://www.instagram.com/just.nikitos/" target="_blank">
+                                <img src="../images/inst.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

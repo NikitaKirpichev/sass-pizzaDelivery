@@ -1,0 +1,71 @@
+.account {
+
+    &__body {
+        width: 90%;
+        margin: 0px auto;
+        
+    }
+
+    &__header {
+    }
+
+    &__title {
+    }
+
+    &__row {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__coloumn {
+    }
+}
+.title {
+}
+.item-pic {
+
+    &__area {
+    }
+}
+.item {
+
+    &__icon {
+    }
+}
+.table-info {
+    width: auto;
+    &__row {
+
+        &:nth-child(2n-1){
+            background-color: $red;
+        }
+
+        &:nth-child(2n){
+            background-color: $orange;
+        }
+    }
+
+    &__cell {
+    }
+}
+
+
+.table-orders {
+    width: 800px;
+    margin: 4% 0 4%;
+    &__row {
+        td{
+            text-align: center;
+            border: 2px solid black;
+            height: 40px;
+        }
+    }
+
+    &__cell {
+        
+    }
+}
+
